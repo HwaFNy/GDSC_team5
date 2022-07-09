@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:layout_gravity="center"
+        android:text="서로 알아가기"
+        android:textColor="#464444"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="100px"
+        android:layout_gravity="center"
+        android:layout_marginTop="100px"
+        android:background="@drawable/r"
+        android:backgroundTint="#8F78FF"
+        android:text="Q1. 자신의 학창시절 취미는 무엇이였나요?"
+        android:textColor="#ffffff"
+        android:textSize="40px" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_gravity="center"
+        android:layout_width="1000px"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/image_3" />
+
+
+</LinearLayout>
